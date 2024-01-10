@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.main-header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo div {
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 90px; /* Ajustez la taille du logo selon vos besoins */
+}
+
+.logo-text {
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li.active a {
+    color: #3498db; /* Couleur pour l'onglet actif */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.video-section {
+    position: relative;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.social {
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 40px; /* Ajustez la taille des icônes sociales selon vos besoins */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Couleur et opacité de l'overlay */
+    z-index: -1;
+}
+
+
+.school-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+}
+
+.school-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.quick-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.quick-links a:hover {
+    color: #3498db;
+}
+.about-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Ajout de styles pour les formulaires */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto; /* Ajout de cette ligne pour centrer le formulaire */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+label {
+    grid-column: span 2;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    grid-column: span 2;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b4f72;
+}
+
+.school-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+.school-info div {
+    max-width: 400px;
+}
+
+.school-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.school-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.social {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(10px, -300px); /* Ajustez la translation selon vos besoins */
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 50px; /* Ajustez la taille des icônes sociales selon vos besoins */
+}
+
+
+
+.form-container {
+    display: flex;
+    border: 2px solid #333;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-container form,
+.form-container div {
+    flex: 1;
+    padding: 20px; /* Ajout de padding pour espacer les formulaires du cadre */
+    border: 1px solid #999; /* Bordure autour de chaque questionnaire */
+    border-radius: 8px; /* Coins arrondis pour une apparence plus esthétique */
+    margin-right: 10px; /* Espace entre les formulaires */
+}
+
+
+
+
